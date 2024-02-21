@@ -2,7 +2,7 @@ name: "gerar jogo de cobra da grade de contribuicao do github"
 description: "Gera um jogo de cobra a partir de uma grade de contribuições de usuários do GitHub. Produza a animação como SVG"
 author: "Pjxsantos"
 - name: gerar jogo de cobra da grade de contribuicao do github!
-  uses: Pjxsantos/snake@v2.0
+  uses: Pjxsantos/snake@v3.0.1
             
             
 runs:
