@@ -231,4 +231,3 @@ const createGif = async (grid0, cells, chain, drawOptions, animationOptions) => 
 
 };
 ;
-

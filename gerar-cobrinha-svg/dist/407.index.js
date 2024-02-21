@@ -767,4 +767,3 @@ const createSnakeFromCells = (points) => {
 
 };
 ;
-

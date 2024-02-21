@@ -323,4 +323,3 @@ const generateColorVar = (drawOptions) => `
 
 };
 ;
-

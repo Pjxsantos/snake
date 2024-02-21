@@ -40,4 +40,3 @@ inputs:
 
               - name: gerar jogo de cobra da grade de contribuicao do github
                 uses: Pjxsantos/snake@v5.0.1
-            

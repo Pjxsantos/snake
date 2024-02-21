@@ -115,7 +115,3 @@ Feito isso mais uma vez  **"Commit changes"**
 
 
 _Generated with [Pjxsantos/snake](https://github.com/Pjxsantos/snake)_
-
-
-
-
