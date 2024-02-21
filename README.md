@@ -99,7 +99,7 @@ Feito isso mais uma vez  **"Commit changes"**
 
 
 
-**5.** Clica em **"gene animação"**
+**5.** Clica em **"gerar animação"**
 
 
 
