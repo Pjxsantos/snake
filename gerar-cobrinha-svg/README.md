@@ -1,4 +1,4 @@
-# svg-only
+# gerar-cobrinha-svg
 
 Outra ação executada exclusivamente em js (sem Docker).
 
