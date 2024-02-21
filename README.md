@@ -53,7 +53,7 @@ jobs:
     steps:
       # gera um jogo de cobra a partir de um gráfico de contribuições de um usuário do github (<github_user_name>), gera uma animação SVG em <svg_out_path>
       - name: generate github-contribution-grid-snake.svg
-        uses: pjxsantos/snake/svg-only@v2.0
+        uses: pjxsantos/snake/gerar-cobrinha-svg@v2.0
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
