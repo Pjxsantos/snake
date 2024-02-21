@@ -1,4 +1,4 @@
-name: "gerar-jogo-de-cobra-da-grade-de-contribuição-do-github"
+name: "gerar jogo de cobra da grade de contribuição do github"
 description: "Gera um jogo de cobra a partir de uma grade de contribuições de usuários do GitHub. Produza a animação como SVG"
 author: "Pjxsantos"
 
