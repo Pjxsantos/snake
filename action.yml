@@ -1,0 +1,42 @@
+name: "gerar jogo de cobra da grade de contribuicao do github"
+description: "Gera um jogo de cobra a partir de uma grade de contribuições de usuários do GitHub. Produza a animação como SVG"
+author: "Pjxsantos"
+- name: gerar jogo de cobra da grade de contribuicao do github
+  uses: Pjxsantos/snake@v1.0
+            
+            
+runs:
+  using: docker
+  image: docker://pjxsantos/snake@sha256:b613679a0814d9ec772f95d778c35fc5ff1697c493715653c6c712144292c5ad
+
+inputs:
+  github_user_name:
+    description: "github user name"
+    required: true
+  github_token:
+    description: "token do github usado para buscar o calendário de contribuições. O padrão é o token de ação se estiver vazio"
+    required: false
+    default: ${{ github.token }}
+  outputs:
+    required: false
+    default: null
+    description: |
+      lista de arquivos a serem gerados.
+      um arquivo por linha. Cada saída pode ser personalizada com opções como string de consulta.
+
+       supported query string options:
+
+      - palette:      A preset of color, one of [github, github-dark, github-light]
+      - color_snake:  Cor da cobra
+      - color_dots:   Lista separada por vírgula de cores de pontos. 
+                      O primeiro é de contribuição 0, depois vai da contribuição mais baixa para a mais alta.
+                      São esperadas exatamente 5 cores
+      example:
+        outputs: |
+          dark.svg?palette=github-dark&color_snake=blue
+          light.svg?color_snake=#7845ab
+          ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
+
+              - name: gerar jogo de cobra da grade de contribuicao do github
+                uses: Pjxsantos/snake@v1.0
+            
