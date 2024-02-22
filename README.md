@@ -1,5 +1,7 @@
 **Gera um jogo de cobra a partir de um gráfico de contribuições de usuários do GitHub!** 
 
+_Linkedin: [Paulo Jorge](https://www.linkedin.com/in/paulo-jorge-xavier-dos-santos-43282b2b5/)_
+
 <picture> 
 
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/pjxsantos/snake/output/github-contribution-grid-snake-dark.svg">
