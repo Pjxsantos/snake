@@ -1,7 +1,9 @@
 name: "gerar-jogo-de-cobra-da-grade-de-contribuição-do-github-pjxsantos-snake@v5.0.2"
 description: "Gera um jogo de cobra a partir de uma grade de contribuições de usuários do GitHub. pjxsantos/snake@v5.0.2"
 author: "pjxsantos"
-
+- name: gerar-jogo-de-cobra-da-grade-de-contribuição-do-github-pjxsantos-snake@v5.0.2
+  uses: Pjxsantos/snake@v5.0.2
+            
 runs:
   using: docker
   image: docker://pjxsantos/snake@sha256:b613679a0814d9ec772f95d778c35fc5ff1697c493715653c6c712144292c5ad
