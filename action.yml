@@ -29,4 +29,7 @@ inputs:
       - color_dots: lista separada por vírgulas de pontos coloridos.
                       O primeiro é de contribuição 0, depois vai da contribuição mais baixa para a mais alta.
                       São esperadas exatamente 5 cores.
+                      - name: gerar-jogo-de-cobra-da-grade-de-contribuição-do-github-pjxsantos-snake@v5.0.2
+                        uses: Pjxsantos/snake@v5.0.2
+            
       
