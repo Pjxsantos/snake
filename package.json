@@ -1,6 +1,6 @@
 {
   "name": "snake",
-  "version": "5.0.1",
+  "version": "5.0.2",
   "description": "Gera um jogo de cobra a partir de um gráfico de contribuições de usuários do GitHub! | Generate a snake game from a graph of GitHub user contributions!",
   "main": "index.js",
   "repository": {
