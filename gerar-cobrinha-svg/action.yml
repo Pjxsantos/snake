@@ -1,5 +1,5 @@
 name: "gerar-jogo-de-cobra-da-grade-de-contribuição-do-github"
-description: "Gera um jogo de cobra a partir de uma grade de contribuições de usuários do GitHub. Produza a animação como gif ou svg | Gera um jogo de cobra a partir de uma grade de contribuições de usuários do GitHub. Produza a animação como SVG"
+description: "Gera um jogo de cobra a partir de uma grade de contribuições de usuários do GitHub. Produza a animação como svg | Generates a snake game from a grid of GitHub user contributions. Output the animation as SVG"
 author: "Pjxsantos"
 
 runs:
@@ -11,27 +11,25 @@ inputs:
     description: "github user name"
     required: true
   github_token:
-    description: "github token used to fetch the contribution calendar. Default to the action token if empty."
+    description: "token do github usado para buscar o calendário de contribuições. O padrão é o token de ação se estiver vazio."
     required: false
     default: ${{ github.token }}
   outputs:
     required: false
     default: null
     description: |
-      list of files to generate.
-      one file per line. Each output can be customized with options as query string.
+      lista de arquivos a serem gerados.
+      um arquivo por linha. Cada saída pode ser personalizada com opções como string de consulta.
 
-       supported query string options:
+       opções de string de consulta suportadas:
 
-      - palette:      A preset of color, one of [github, github-dark, github-light]
-      - color_snake:  Color of the snake
-      - color_dots:   Coma separated list of dots color. 
-                      The first one is 0 contribution, then it goes from the low contribution to the highest.
-                      Exactly 5 colors are expected.
+      - paleta: uma predefinição de cor, uma de [github, github-dark, github-light]
+      - color_snake: Cor da cobra
+      - color_dots: lista separada por vírgula de cores de pontos.
+                      O primeiro é de contribuição 0, depois vai da contribuição mais baixa para a mais alta.
+                      São esperadas exatamente 5 cores.
+                      - name: gerar-jogo-de-cobra-da-grade-de-contribuição-do-github-pjxsantos-snake@v5.0.2
+                      uses: Pjxsantos/snake@v5.0.2
+            
 
-      example:
-        outputs: |
-          dark.svg?palette=github-dark&color_snake=blue
-          light.svg?color_snake=#7845ab
-          ocean.svg?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
-
+    
