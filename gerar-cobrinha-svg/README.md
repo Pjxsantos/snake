@@ -1,4 +1,4 @@
-# gerar-cobrinha-svg
+# gerar-cobrinha-svg pjxsantos-snake@v5.0.2 🐍
 
 Outra ação executada exclusivamente em js (sem Docker).
 
