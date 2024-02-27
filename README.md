@@ -27,7 +27,7 @@ Gere uma imagem GIF ou SVG!
 **Copiar Código:**  
    
 ```
-name: gerar animação 
+name: gerar animação 🕹️🐍 
 
 on: 
   # executa automaticamente a cada 24 horas 
