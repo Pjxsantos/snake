@@ -103,5 +103,4 @@ Feito isso mais uma vez  **"Commit changes"**!
  
 **Prontinho seu game snake esta pronto.**  
 
-_Generated with [Pjxsantos/snake](https://github.com/Pjxsantos/snake)_ 
-
+_Generated with [Platane/snk](https://github.com/Platane/snk)_
