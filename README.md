@@ -1,5 +1,4 @@
-**Gera um jogo de cobra a partir de um gráfico de contribuições de usuários do GitHub!** 
-
+## Gere um jogo de cobra a partir de um gráfico de contribuições de usuários do GitHub!
 
 <picture> 
 
@@ -10,20 +9,19 @@
   <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/pjxsantos/snake/output/github-contribution-grid-snake.svg">
 
 </picture> 
-
-Extraia o gráfico de contribuição de um usuário do GitHub, Faça disso um jogo de cobra, gere um caminho de cobra onde as células são comidas de maneira ordenada. 
-
-Gere uma imagem GIF ou SVG! 
  
-**Vamos ao que interessa!**   
- 
-**1.** Crie um novo repositório com o mesmo nome de seu usuário GitHub, (Pjxsantos/Pjxsantos)"Public" e "Add README.md"!
-   
-**Exemplo:**   
-   
-**2.** Na raiz do projeto, voçê vai ter que criar dois diretórios e um arquivo main.yml! **Exemplo:** ".github/workflows/main.yml" e vai copiar e colar no arquivo "main.yml" o código que vou disponibilizar abaixo, depois **"Commit changes"**!.   
 
-**Copiar Código:**  
+Extraia o gráfico de contribuição de um usuário do GitHub, faça disso um jogo de cobra, gere um caminho de cobra onde as células são comidas de maneira ordenada.
+
+Gere uma imagem GIF ou SVG!
+
+**Vamos ao que interessa!**
+
+1- Crie um novo repositório com o mesmo nome de seu usuário GitHub, por exemplo, "Pjxsantos/Pjxsantos". Marque como "Público" e adicione um arquivo "README.md".
+
+2- Na raiz do projeto, você vai ter que criar dois diretórios e um arquivo "main.yml". Por exemplo: ".github/workflows/main.yml" e vai copiar e colar no arquivo "main.yml" o código que vou disponibilizar abaixo, depois faça um "Commit changes".
+
+**Copie o Código:** 
    
 ```
 name: gerar animação 🕹️🐍 
@@ -72,9 +70,8 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} 
 ```  
 
-Agora Vamos editar o arquivo "README.md"! 
 
-**3.** No arquivo "README.md" voçê copia e cola o código que está diponivel aqui em baixo ⬇️ , Onde estar escrito "USER_NAME" você substitui por seu usuário, em seguida o nome do repositório.
+3- Agora vamos editar o arquivo “README.md”! No arquivo “README.md”, você copia e cola o código que está disponível aqui embaixo. Onde estiver escrito “user”, você substitui pelo seu usuário, e em seguida, pelo nome do repositório.
 
 **Exemplo:** "Pjxsantos/Pjxsantos"
 
@@ -94,12 +91,12 @@ Agora Vamos editar o arquivo "README.md"!
 ```  
 Feito isso mais uma vez  **"Commit changes"**! 
 
-**4.** Por fim voçê vai em **"Actions"**! 
- 
-**5.** Clica em **"gerar animação"**! 
+Feito isso, faça mais uma vez um “Commit changes”.
 
-**6.** Depois "Run workflow" pronto voçê acaba de gerar uma snake comedora de **"Commit changes"**! 
- 
-**Prontinho seu game snake esta pronto.**  
+4- Por fim, você vai em “Actions”.
+
+5- Clica em “gerar animação”.
+
+6- Depois “Run workflow”, e pronto, você acaba de gerar uma snake comedora de “Commit changes”!
 
 _Generated with [Platane/snk](https://github.com/Platane/snk)_
